@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27845" started-at="2017-08-28T16:43:40Z" finished-at="2017-08-28T16:44:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27845" started-at="2017-08-28T16:43:40Z" finished-at="2017-08-28T16:44:08Z">
+      <class name="com.rightcomply.UIAutomation.pages.HomePageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.rightcomply.UIAutomation.pages.HomePageTest@553f17c]" name="init" is-config="true" duration-ms="16341" started-at="2017-08-28T09:43:40Z" finished-at="2017-08-28T09:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testInit()[pri:0, instance:com.rightcomply.UIAutomation.pages.HomePageTest@553f17c]" name="testInit" is-config="true" duration-ms="3031" started-at="2017-08-28T09:43:56Z" finished-at="2017-08-28T09:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:com.rightcomply.UIAutomation.pages.HomePageTest@553f17c]" name="verifyHomepageTitle" duration-ms="136" started-at="2017-08-28T09:44:00Z" description="To Verify Home page title" finished-at="2017-08-28T09:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="setScreenshot(org.testng.ITestResult)[pri:0, instance:com.rightcomply.UIAutomation.pages.HomePageTest@553f17c]" name="setScreenshot" is-config="true" duration-ms="4" started-at="2017-08-28T09:44:00Z" finished-at="2017-08-28T09:44:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomepageTitle status=SUCCESS method=HomePageTest.verifyHomepageTitle()[pri:0, instance:com.rightcomply.UIAutomation.pages.HomePageTest@553f17c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setScreenshot -->
+        <test-method status="PASS" signature="testImage()[pri:0, instance:com.rightcomply.UIAutomation.pages.HomePageTest@553f17c]" name="testImage" duration-ms="414" started-at="2017-08-28T09:44:00Z" description="To Verify Rightcomply Image" finished-at="2017-08-28T09:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImage -->
+        <test-method status="PASS" signature="setScreenshot(org.testng.ITestResult)[pri:0, instance:com.rightcomply.UIAutomation.pages.HomePageTest@553f17c]" name="setScreenshot" is-config="true" duration-ms="1" started-at="2017-08-28T09:44:00Z" finished-at="2017-08-28T09:44:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testImage status=SUCCESS method=HomePageTest.testImage()[pri:0, instance:com.rightcomply.UIAutomation.pages.HomePageTest@553f17c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setScreenshot -->
+        <test-method status="PASS" signature="test_login()[pri:0, instance:com.rightcomply.UIAutomation.pages.HomePageTest@553f17c]" name="test_login" duration-ms="7836" started-at="2017-08-28T09:44:00Z" description="To verify Valid Login" finished-at="2017-08-28T09:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method status="PASS" signature="setScreenshot(org.testng.ITestResult)[pri:0, instance:com.rightcomply.UIAutomation.pages.HomePageTest@553f17c]" name="setScreenshot" is-config="true" duration-ms="1" started-at="2017-08-28T09:44:08Z" finished-at="2017-08-28T09:44:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_login status=SUCCESS method=HomePageTest.test_login()[pri:0, instance:com.rightcomply.UIAutomation.pages.HomePageTest@553f17c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setScreenshot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rightcomply.UIAutomation.pages.HomePageTest@553f17c]" name="tearDown" is-config="true" duration-ms="1614" started-at="2017-08-28T09:44:08Z" finished-at="2017-08-28T09:44:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rightcomply.UIAutomation.pages.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
